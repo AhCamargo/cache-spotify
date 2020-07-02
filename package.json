@@ -1,0 +1,21 @@
+{
+  "name": "cache-spotify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/AhCamargo/cache-spotify.git",
+  "author": "Andre Camargo",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "ioredis": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
